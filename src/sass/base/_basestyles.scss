@@ -44,28 +44,27 @@ button {
   border-radius: 10px;
 }
 
-@media screen and (min-width:480px) {
-    .container {
-        width: 480px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-@media screen and (min-width:768px) {
-    .container {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-@media screen and (min-width:1200px) {
-    .container {
-        width: 1200px;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
