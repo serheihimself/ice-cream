@@ -1,18 +1,11 @@
 .footer {
     position: relative;
-    max-width: 320px;
     height: auto;
     background-color: #84a178;
     margin-left: auto;
     margin-right: auto;
     padding-top: 963px;
     
-}
-
-.footer__box {
-    padding-left: 20px;
-    padding-right: 20px;
-   
 }
 
 .footer__btn {
@@ -187,7 +180,6 @@
 
 @media screen and (min-width: 768px) {
     .footer {
-       max-width: 768px;
        padding-top: 284px;
        
     }
@@ -199,7 +191,7 @@
     .footer__buttons-item:not(:last-child) {
         margin-bottom: 0;
     }
-    .footer__box {
+    .container {
         padding-left: 32px;
         padding-right: 32px;
        
@@ -221,7 +213,7 @@
         width: 340px;
         
     }
-    .footer__box {
+    .container {
         position: relative;
     }
     .footer__contacts {
@@ -246,11 +238,10 @@
 
 @media screen and (min-width: 1200px) {
     .footer {
-        max-width: 1200px;
         padding-top: 506px;
        
     }
-    .footer__box {
+    .container {
         padding-left: 16px;
         padding-right: 16px;
     }
