@@ -11,15 +11,16 @@
 }
 .products-modal {
     width: 568px;
-    height: 995px;
-    background-color: var(--secondary-text-color);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid var(--default-color);
-    border-radius: 10px;
-    padding: 32px 40px;
+        height: 995px;
+        background-color: var(--secondary-text-color);
+        position: absolute;
+        overflow: scroll;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid var(--default-color);
+        border-radius: 10px;
+        padding: 32px 40px;
 }
 
 .modal-btn-close__icon {
@@ -47,6 +48,8 @@
     background-image: url(../images/products-modal/img-1.png);
     border-radius: 50%;
     margin: 24px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .products-modal__list {
     display: flex;
