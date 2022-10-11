@@ -1,7 +1,6 @@
 .products-backdrop {
   background-color: rgba(174, 198, 165, 0.3);
   position: fixed;
-  overflow: scroll;
   top: 0;
   left: 0;
   width: 100%;
@@ -47,7 +46,7 @@
     height: 131px;
     background-image: url(../images/products-modal/img-1.png);
     border-radius: 50%;
-    margin: 24px 0;
+    margin: 24px auto;
 }
 .products-modal__list {
   display: flex;
