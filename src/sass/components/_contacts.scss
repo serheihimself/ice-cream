@@ -2,7 +2,13 @@
 position: absolute;
 padding: 0;
 left: 50%;
-transform: translate(-50%, -50%);
+transform: translate(-50%, -149%);
+@media screen and (min-width: 768px) {
+transform: translate(-50%, -178%);
+}
+@media screen and (min-width: 1200px) {
+transform: translate(-50%, -182%);
+}
 }
 // }
 
