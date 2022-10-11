@@ -1,0 +1,153 @@
+.contacts{
+// position: absolute;
+padding: 0;
+
+// @media screen and (win-width: 768px){
+ 
+// }
+
+// @media screen and (win-width: 1200px){
+      
+// }
+}
+
+.contacts-list{
+@media screen and (min-width: 768px) {
+display: flex; 
+flex-direction: row; 
+justify-content: center;
+align-items: center;
+}
+}
+
+.contacts-list__contacts-address{
+background-color: var(--secondary-text-color);
+border-radius: 30px;
+padding: 40px 32px;
+
+width: 280px;
+height: 412px;
+
+font-style: normal;
+font-size: 12px;
+font-weight: 500;
+color: inherit;
+line-height: 1.86;
+box-shadow: 0px, 8px
+rgba(212, 20, 67, 0.1);
+
+@media screen and (min-width: 768px) {
+width: 224px; 
+padding: 40px 24px; 
+
+font-style: normal;
+font-size: 14px;
+font-weight: 500;
+
+&:not(:last-child){
+margin-right: 16px;
+}
+}
+
+@media screen and (min-width: 1200px){
+width: 368px;
+gap: 33px;
+padding: 40px; 
+
+font-style: normal;
+font-size: 16px;
+font-weight: 500; 
+}
+
+&:not(:last-child){
+margin-right: 33px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.contacts-list__contacts-address:not(:last-child){
+margin-bottom: 20px;
+}
+}
+
+.contacts__type{
+display: inline-block;
+background-color: var(--default-color);
+border-radius: 4px;
+margin-bottom: 20px;
+padding-right: 15px;
+padding-left: 15px;
+
+text-transform: uppercase;
+justify-content: center;
+align-items: center;
+
+@media screen and (min-width: 768px) {
+margin-bottom: 32px;    
+}
+}
+
+.contacts-list__link-address{
+display: block;
+margin-top: 8px;
+color: #D6936D;
+
+&::after{
+content: "";
+display: block;
+border-bottom: 1px solid #E1E1E1;
+margin-top: 24.01px;
+
+@media screen and (min-width: 768px) {
+margin-top: 32px;
+line-height: 1.83;
+margin-top: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+margin-top: 8px;
+}
+}
+
+&:hover,
+&:focus{
+text-decoration: underline;
+cursor: pointer;
+}
+}
+
+.contacts-list__contacts-time{
+display: block;
+color: var(--disabled-color);
+}
+
+.contacts-list__contacts-days{
+display: block;
+margin-top: 8px;
+
+&:last-child::after{
+content: "";
+display: block;
+border-bottom: 1px solid #E1E1E1;
+margin-top: 24.01px;
+}
+
+@media screen and (min-width: 768px) {
+margin-top: 32px;
+}
+}
+
+.contacts-list__tel-email{
+margin-top: 24.01px;
+line-height: 1.5;
+
+ .link{
+  color: var(--primary-text-color);
+ }
+
+ @media screen and (min-width:768px) {
+ margin-top: 32px;
+ font-size: 14px;
+ line-height: 1.83;    
+ }
+}
