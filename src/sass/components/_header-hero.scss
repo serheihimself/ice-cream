@@ -669,10 +669,6 @@
     (min-resolution: 2dppx) {
         .hero-section {
             background-image: url(/src/images/hero/points-mobile@2x.png);
-            background-size: contain;
-        }
-        .ice-cream-img{
-            right: 118px;
         }
     }
 }
@@ -684,7 +680,6 @@
     (min-resolution: 2dppx) {
         .hero-section {
             background-image: url(/src/images/hero/points-tablet.@2x.png);
-            background-size: contain;
         }
     }
 }
@@ -696,20 +691,18 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-section {
-            max-width: 1200px;
             background-position: bottom;
             background-repeat: no-repeat;
             background-image: url(/src/images/hero/points-desktop@2x.png);
-            background-size: contain;
         }
     }
 }
 
-body {
+body{
     background-color: var(--background-main-color);
 }
 
-.is-hidden {
+.is-hidden{
     opacity: 0;
     visibility: 0;
     pointer-events: none;
