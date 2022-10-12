@@ -1,24 +1,30 @@
-<header>
-    <a href="./" class="header-logo a">
-        <svg width="60px" height="55px"><use href="/src/images/sprite.svg#icon-ice-logo"></use></svg>
+<div class="thumb ">
+<header class="container header ">
+    <a href="./" class="header-logo ">
+        <svg width="60px" height="55px" class="logo-icon"><use href="/src/images/sprite.svg#icon-ice-logo"></use></svg>
     </a>
     <nav>
         <ul class="nav-list">
-            <li class="nav-item"><a href="" class="nav-link link a">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link link">Home</a></li>
             <li class="nav-item"><a href="" class="nav-link link">How it’s made?</a></li>
             <li class="nav-item"><a href="" class="nav-link link">Our products</a></li>
             <li class="nav-item"><a href="" class="nav-link link">Contact</a></li>
         </ul>
     </nav>
-    <button class="header-btn">Buy now<svg width="12px" height="12px"><use></use></svg></button>
-</header>
-<section class="section hero-section">
-    <div class="container">
-        <h1 class="hero-title">ice cream <br>made with <br>passion</h1>
-        <button class="hero-products-btn">Products</button>
-        <a href="" class="how-made link">How it’s made?</a>
+    <div class="btns-wrap ">
+        <button class="header-menu-btn "><svg width="28px" height="22px" class="header-menu-icon" header-modal-open><use href="/src/images/sprite.svg#burger"></use></svg></button>
+        <button class="header-btn ">Buy now<svg width="12px" height="12px" class="header-btn-icon"><use href="/src/images/sprite.svg#icon-button-arrow"></use></svg></button>
     </div>
+</header>
 
+<section class="section hero-section ">
+    <div class="container hero-container">
+        <div class="hero-left-wrap">
+        <h1 class="hero-title">ice cream <br>made with <br>passion</h1>
+        <div class="hero-btn-wrap">
+            <button class="hero-products-btn">Products</button>
+            <a href="" class="how-made link">How it’s made?</a>
+        </div>
     <div class="plate-wrap">
         <div class="plate-img">
             <img src="/src/images/hero/plate-desktop.png" alt="plate with ice-cream">
@@ -27,19 +33,47 @@
             <p class="plate-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             </p>
-            <svg width="40px" height="16px"><use href="/src/images/sprite.svg#icon-arrow-default"></use></svg>
+            <a href="" class="hero-arrow-link"><svg  class="hero-arrow"><use href="/src/images/sprite.svg#arrow-default"></use></svg></a>
         </div>
     </div>
-
+</div>
+<div class="hero-right-wrap">
     <div class="info-hero-wrap">
         <ul class="info-hero-list">
             <li class="info-hero-item">
-                <p>16</p><span>cafes</span>
+                <p class="info-number">16</p><span class="info-text">cafes</span>
             </li>
             <li class="info-hero-item">
-                <p>23</p><span>food trucks</span>
+                <p class="info-number">23</p><span class="info-text">food trucks</span>
             </li>
         </ul>
     </div>
-    <img src="/src/images/hero/ice-cream-desktop.png" alt="big ice-cream">
+   <picture>
+    <source srcset="/src/images/hero/ice-cream-desktop.png 1x, 
+    /src/images/hero/ice-cream-desktop@2x.png 2x" media="(min-width:1200px)">
+    <source srcset="/src/images/hero/ice-cream-tablet@2x.png 2x,
+    /src/images/hero/ice-cream-tablet.png 1x" media="(min-width:768px)">
+    <source srcset="/src/images/hero/ice-cream-mobile@2x.png 2x,
+    /src/images/hero/ice-cream-mobile.png 1x" media="(min-width:0)">
+    <img src="/src/images/hero/ice-cream-desktop.png" alt="big ice-cream" class="ice-cream-img">
+    
+   </picture>
+</div>
+</div>
 </section>
+
+
+</div>
+<div class="hero-menu is-hidden" header-modal>
+    <svg class="hero-menu-logo"><use href="/src/images/sprite.svg#icon-ice-logo"></use></svg>
+    <svg width="32px" height="32px" class="hero-menu-close" header-modal-close><use href="/src/images/sprite.svg#btn-close-modal"></use></svg>
+    <div class="hero-menu-nav">
+        <ul class="hero-menu-list">
+            <li class="hero-menu-item"><a href="" class="hero-menu-link">Home</a></li>
+            <li class="hero-menu-item"><a href="" class="hero-menu-link">How it’s made?</a></li>
+            <li class="hero-menu-item"><a href="" class="hero-menu-link">Our products</a></li>
+            <li class="hero-menu-item"><a href="" class="hero-menu-link">Contact</a></li>
+            <li class="hero-menu-item"><button class="modal-button-header">Buy now<svg width="12px" height="12px" class="header-btn-icon"><use href="/src/images/sprite.svg#icon-button-arrow"></use></svg></button></li>
+        </ul>
+    </div>
+</div>
