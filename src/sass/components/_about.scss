@@ -82,7 +82,8 @@
 
     @media screen and (min-width: 1200px) {
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
+        column-gap: 100px;
     }
 }
 
@@ -173,11 +174,9 @@
 
 .about__block_info {
     display: block;
-
     min-width: 220px;
 
     @media screen and (min-width: 768px) {
-        margin-right: 34px;
         width: 336px;
     }
 
