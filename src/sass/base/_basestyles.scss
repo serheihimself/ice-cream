@@ -69,3 +69,14 @@ button {
         padding-right: 16px;
     }
 }
+.modal-btn-close {
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    @media screen and (min-width:768px) {
+    top: 20px;
+    right: 20px;
+    }
+}
