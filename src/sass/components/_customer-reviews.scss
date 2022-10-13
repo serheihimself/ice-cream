@@ -149,3 +149,9 @@
   .swiper-slide {
     text-align: center;
   }
+
+  span.swiper-pagination-bullet-active{
+    background-color:var(--background-main-color);
+    width: 10px;
+    height: 10px;
+  }
