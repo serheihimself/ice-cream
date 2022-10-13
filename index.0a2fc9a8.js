@@ -1,0 +1,2 @@
+!function(){for(var e=document.querySelectorAll(".btn_sign"),t=document.querySelectorAll(".modal-window_entry"),n=document.querySelectorAll(".close-entry"),l=0;l<e.length;l++)e[l].addEventListener("click",(function(e){e.preventDefault(),t[0].classList.add("show-entry")}));for(l=0;l<n.length;l++)n[l].addEventListener("click",(function(e){e.preventDefault(),t[0].classList.remove("show-entry")}))}();
+//# sourceMappingURL=index.0a2fc9a8.js.map
