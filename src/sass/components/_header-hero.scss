@@ -231,8 +231,8 @@
     display: none;
 }
 
-@media screen and (min-width:0px) and(max-width: 479px){
-    .modal-button-header{
+@media screen and (min-width:0px) and(max-width: 479px) {
+    .modal-button-header {
         margin: 0;
         padding: 12px 34px;
         background-color: var(--default-color);
@@ -307,6 +307,7 @@
     .ice-cream-img{
         bottom: -53px;
         right: 10px;
+        z-index: 0;
     }
 
     .logo-icon{
@@ -365,8 +366,8 @@
 }
 
 
-@media screen and (min-width:480px) and (max-width:767px){
-    .modal-button-header{
+@media screen and (min-width:480px) and (max-width:767px) {
+    .modal-button-header {
         margin: 0;
         padding: 12px 34px;
         background-color: var(--default-color);
@@ -422,6 +423,7 @@
         flex-direction: column;
         align-items: start;
         min-height: 502px;
+        width: 480px;
     }
 
     .hero-menu{
@@ -441,6 +443,7 @@
     .ice-cream-img{
         bottom: -53px;
         right: 90px;
+        z-index: 0;
     }
 
     .logo-icon{
