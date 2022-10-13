@@ -14,16 +14,16 @@
     visibility: hidden;
     pointer-events: none;
     }
-div.modal-window_entry {
+.modal-window_entry {
     display: none;
 }
 
-div.modal-window_entry.show-entry {
+.modal-window_entry.show-entry {
     display: block;
 }
 .general-modal {
-    width: 568px;
-    height: 644px;
+    width: 280px;
+    height: 986px;
     background-color: var(--secondary-text-color);
     position: absolute;;
     top: 50%;
@@ -32,6 +32,10 @@ div.modal-window_entry.show-entry {
     border: 2px solid var(--default-color);
     border-radius: 10px;
     padding: 32px 54px;
+    @media screen and (min-width: 768px) {
+        width: 568px;
+        height: 644px;
+    }
 }
 .modal-btn-close__icon {
     width: 16px;
@@ -54,16 +58,24 @@ div.modal-window_entry.show-entry {
 }
 .general-modal__list {
     display: flex;
-    column-gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 32px;;
+    }
 }
 .general-modal__link {
     position: relative;
     width: 132px;
     height: 135px;
-    margin-top: 103px;
-    margin-bottom: 40px;
+    margin-top: 83px;
     border-radius: 15px;
-}
+    @media screen and (min-width: 768px) {
+    margin-top: 103px;
+    }
+    }
 .general-modal__img::before {
     content: '';
     position: absolute;
@@ -154,7 +166,12 @@ div.modal-window_entry.show-entry {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 12px;
+        margin: 24px 0;
+        row-gap: 12px;
+        @media screen and (min-width: 768px) {
+        margin: 40px 0 32px 0;
+        row-gap: 16px;
+        }
         }
     
     .general-modal-form__input {
@@ -186,7 +203,6 @@ div.modal-window_entry.show-entry {
         border: 1px solid #84a178;
         border-radius: 10px;
         transition: border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
-        margin-bottom: 8px;
     
         &::placeholder {
         font-size: 12px;
@@ -276,7 +292,6 @@ div.modal-window_entry.show-entry {
             .general-modal-form__textarea {
                 width: 368px;
                 height: 84px;
-                margin-bottom: 10px;
     
                 &::placeholder {
                     font-size: 14px;
