@@ -1,24 +1,25 @@
-.thumb{
+.thumb {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.nav-link{
+.nav-link {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: var(--secondary-text-color);
     transition-property: color;
-    transition-duration:   250ms;
-    transition-timing-function:   cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover, &:focus{
+    &:hover,
+    &:focus {
         color: var(--default-color);
     }
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     gap: 27px;
     margin-right: auto;
@@ -26,7 +27,7 @@
 
 
 
-.header{
+.header {
     width: 100%;
     max-width: 1200px;
     left: 0;
@@ -37,50 +38,51 @@
     z-index: 1;
 }
 
-.header-btn{
-   margin: 0;
-   padding: 12px 24px;
-   background-color: var(--default-color);
-   font-weight: 600;
+.header-btn {
+    margin: 0;
+    padding: 12px 24px;
+    background-color: var(--default-color);
+    font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     display: flex;
     align-items: center;
     text-align: center;
     transition-property: color, background-color, border-color;
-    transition-duration:   250ms;
-    transition-timing-function:   cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
         background-color: var(--hover-color);
     }
 
-     &:focus{
+    &:focus {
         background-color: transparent;
         border-color: #0A8817;
         color: var(--secondary-text-color);
-     }
+    }
 }
 
-.header-btn-icon{
+.header-btn-icon {
     width: 12px;
     height: 12px;
     margin-left: 7px;
     transition-property: fill;
-    transition-duration:   250ms;
-    transition-timing-function:   cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-     .header-btn:focus &{
+    .header-btn:focus & {
         fill: var(--secondary-text-color);
     }
 }
 
 
-.hero-container{
+.hero-container {
     display: flex;
     justify-content: space-between;
 }
 
-.hero-title{
+.hero-title {
     font-family: 'Seymour One';
     font-style: normal;
     font-weight: 400;
@@ -93,7 +95,7 @@
     margin-bottom: 28px;
 }
 
-.hero-section{
+.hero-section {
     background-color: var(--background-main-color);
     background-image: url(/src/images/hero/points-desktop.png);
     background-repeat: no-repeat;
@@ -102,13 +104,13 @@
     margin: 0 auto;
 }
 
-.hero-btn-wrap{
+.hero-btn-wrap {
     display: flex;
     align-items: baseline;
     margin-bottom: 42px;
 }
 
-.hero-products-btn{
+.hero-products-btn {
     margin: 0;
     margin-right: 34px;
     padding: 12px 34px;
@@ -121,43 +123,44 @@
     align-items: center;
     text-align: center;
     transition-property: border-color;
-    transition-duration:   250ms;
-    transition-timing-function:   cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 10px;
 
-    &:hover{
+    &:hover {
         border-color: #0A8817;
     }
 }
 
-.how-made{
+.how-made {
     text-decoration: underline;
     color: var(--default-color);
     font-weight: 600;
     font-size: 14px;
     line-height: 1.21;
     transition-property: color;
-    transition-duration:   250ms;
-    transition-timing-function:   cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover{
+    &:hover {
         color: var(--hover-color);
     }
 
-    &:focus{
+    &:focus {
         color: var(--secondary-text-color);
     }
 }
 
-.plate-wrap{
+.plate-wrap {
     display: flex;
     align-items: center;
 }
 
-.plate-text-wrap{
+.plate-text-wrap {
     max-width: 200px;
 }
 
-.plate-text{
+.plate-text {
     margin-bottom: 32px;
     font-style: normal;
     font-weight: 400;
@@ -166,27 +169,27 @@
     color: var(--secondary-text-color);
 }
 
-.hero-arrow{
+.hero-arrow {
     width: 40px;
     height: 16px;
     fill: var(--secondary-text-color);
     transition: width 250ms ease, height 250ms ease;
 
-    &:hover{
+    &:hover {
         width: 50px;
     }
 
-    &:focus{
+    &:focus {
         width: 50px;
     }
 }
 
-.plate-img{
+.plate-img {
     margin-right: 14px;
     padding-bottom: 65px;
 }
 
-.info-number{
+.info-number {
     font-weight: 900;
     font-size: 46px;
     line-height: 1.21;
@@ -195,7 +198,7 @@
     color: var(--primary-text-color);
 }
 
-.info-text{
+.info-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.21;
@@ -203,31 +206,31 @@
     color: var(--secondary-text-color);
 }
 
-.ice-cream-img{
+.ice-cream-img {
     position: absolute;
     bottom: -100px;
     right: 0px;
 }
 
-.info-hero-list{
+.info-hero-list {
     text-align: right;
     margin-top: 126px;
 }
 
-.header-menu-btn{
+.header-menu-btn {
     display: none;
 }
 
-.logo-icon{
+.logo-icon {
     width: 60px;
     height: 55px;
 }
 
-.hero-menu{
+.hero-menu {
     display: none;
 }
 
-.none{
+.none {
     display: none;
 }
 
@@ -237,6 +240,7 @@
         padding: 12px 34px;
         background-color: var(--default-color);
         font-weight: 600;
+
          font-size: 14px;
          line-height: 1.21;
           display: flex;
@@ -260,30 +264,40 @@
     }
     
     .thumb{
+
+        font-size: 14px;
+        line-height: 1.21;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .thumb {
+
         max-width: 320px;
     }
-    
-    .nav-list{
+
+    .nav-list {
         display: none;
     }
 
-    .header-menu-btn{
+    .header-menu-btn {
         display: flex;
         background-color: transparent;
         margin: 0;
     }
 
-    .btns-wrap{
+    .btns-wrap {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .header-btn{
+    .header-btn {
         display: none;
     }
 
-    .hero-title{
+    .hero-title {
         font-weight: 400;
         font-size: 26px;
         line-height: 1.26;
@@ -291,21 +305,21 @@
         margin-bottom: 32px;
     }
 
-    .plate-wrap{
+    .plate-wrap {
         display: none;
     }
 
-    .info-hero-wrap{
+    .info-hero-wrap {
         display: none;
     }
 
-    .hero-container{
+    .hero-container {
         flex-direction: column;
         align-items: start;
         min-height: 502px;
     }
 
-    .hero-menu{
+    .hero-menu {
         display: block;
         height: 100vh;
         width: 100vw;
@@ -315,22 +329,22 @@
         z-index: 101;
     }
 
-    .hero-section{
+    .hero-section {
         background-image: url(/src/images/hero/points-mobile.png);
     }
 
-    .ice-cream-img{
+    .ice-cream-img {
         bottom: -53px;
         right: 10px;
         z-index: 0;
     }
 
-    .logo-icon{
+    .logo-icon {
         width: 48px;
         height: 44px;
     }
 
-    .hero-menu{
+    .hero-menu {
         height: 100vh;
         width: 100vw;
         background-color: var(--background-main-color);
@@ -339,7 +353,7 @@
         z-index: 101;
     }
 
-    .hero-menu-logo{
+    .hero-menu-logo {
         width: 48px;
         height: 44px;
         position: absolute;
@@ -348,18 +362,18 @@
     }
 
 
-    .hero-menu-close{
+    .hero-menu-close {
         fill: var(--secondary-text-color);
         position: absolute;
         top: 32px;
         right: 32px;
     }
 
-    .hero-menu-nav{
+    .hero-menu-nav {
         padding-top: 140px;
     }
 
-    .hero-menu-list{
+    .hero-menu-list {
         justify-content: center;
         align-items: center;
         display: flex;
@@ -367,17 +381,17 @@
         flex-direction: column;
     }
 
-    .hero-menu-link{
+    .hero-menu-link {
         font-weight: 700;
         font-size: 32px;
         line-height: 1.21;
         color: var(--secondary-text-color);
 
-        &:active{
+        &:active {
             color: var(--primary-text-color);
         }
     }
-    
+
 }
 
 
@@ -387,6 +401,7 @@
         padding: 12px 34px;
         background-color: var(--default-color);
         font-weight: 600;
+
          font-size: 14px;
          line-height: 1.21;
           display: flex;
@@ -410,30 +425,40 @@
     }
     
     .thumb{
+
+        font-size: 14px;
+        line-height: 1.21;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .thumb {
+
         max-width: 480px;
     }
-    
-    .nav-list{
+
+    .nav-list {
         display: none;
     }
 
-    .header-menu-btn{
+    .header-menu-btn {
         display: flex;
         background-color: transparent;
         margin: 0;
     }
 
-    .btns-wrap{
+    .btns-wrap {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .header-btn{
+    .header-btn {
         display: none;
     }
 
-    .hero-title{
+    .hero-title {
         font-weight: 400;
         font-size: 26px;
         line-height: 1.26;
@@ -441,22 +466,22 @@
         margin-bottom: 32px;
     }
 
-    .plate-wrap{
+    .plate-wrap {
         display: none;
     }
 
-    .info-hero-wrap{
+    .info-hero-wrap {
         display: none;
     }
 
-    .hero-container{
+    .hero-container {
         flex-direction: column;
         align-items: start;
         min-height: 502px;
         width: 480px;
     }
 
-    .hero-menu{
+    .hero-menu {
         display: block;
         height: 100vh;
         width: 100vw;
@@ -466,22 +491,22 @@
         z-index: 101;
     }
 
-    .hero-section{
+    .hero-section {
         background-image: url(/src/images/hero/points-mobile.png);
     }
 
-    .ice-cream-img{
+    .ice-cream-img {
         bottom: -53px;
         right: 90px;
         z-index: 0;
     }
 
-    .logo-icon{
+    .logo-icon {
         width: 48px;
         height: 44px;
     }
 
-    .hero-menu{
+    .hero-menu {
         height: 100vh;
         width: 100vw;
         background-color: var(--background-main-color);
@@ -490,7 +515,7 @@
         z-index: 101;
     }
 
-    .hero-menu-logo{
+    .hero-menu-logo {
         width: 48px;
         height: 44px;
         position: absolute;
@@ -498,18 +523,18 @@
         left: 32px;
     }
 
-    .hero-menu-close{
+    .hero-menu-close {
         fill: var(--secondary-text-color);
         position: absolute;
         top: 32px;
         right: 32px;
     }
 
-    .hero-menu-nav{
+    .hero-menu-nav {
         padding-top: 140px;
     }
 
-    .hero-menu-list{
+    .hero-menu-list {
         justify-content: center;
         align-items: center;
         display: flex;
@@ -517,39 +542,40 @@
         flex-direction: column;
     }
 
-    .hero-menu-link{
+    .hero-menu-link {
         font-weight: 700;
         font-size: 32px;
         line-height: 1.21;
         color: var(--secondary-text-color);
 
-        &:active{
+        &:active {
             color: var(--primary-text-color);
         }
     }
-    
+
 }
 
 @media screen and (min-width:768px) and(max-width: 1199px) {
-    .modal-button-header{
+    .modal-button-header {
         display: none;
     }
 
-    .thumb{
+    .thumb {
         max-width: 768px;
     }
-    .nav-list{
+
+    .nav-list {
         display: none;
     }
 
-    .header-menu-btn{
+    .header-menu-btn {
         display: flex;
         background-color: transparent;
         margin: 0;
         margin-right: 32px;
     }
 
-    .header{
+    .header {
         width: 100%;
         max-width: 1200px;
         left: 0;
@@ -559,24 +585,24 @@
         z-index: 1;
     }
 
-    .header-logo{
+    .header-logo {
         margin-right: auto;
     }
 
-    .btns-wrap{
+    .btns-wrap {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .hero-title{
+    .hero-title {
         font-weight: 400;
         font-size: 18px;
         line-height: 1.27;
         margin-bottom: 20px;
     }
 
-    .hero-products-btn{
+    .hero-products-btn {
         padding: 7px 11px;
         text-align: center;
         width: 62px;
@@ -584,149 +610,145 @@
         font-size: 8px;
         line-height: 1.25;
         margin-right: 8px;
-        }
+    }
 
-        .how-made{
-            font-weight: 600;
-            font-size: 8px;
-            line-height: 1.25;
-        }
+    .how-made {
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 1.25;
+    }
 
-        .hero-btn-wrap{
-            margin-bottom: 28px;
-        }
+    .hero-btn-wrap {
+        margin-bottom: 28px;
+    }
 
-        .plate-text{
-            max-width: 151px;
+    .plate-text {
+        max-width: 151px;
         font-weight: 400;
         font-size: 12px;
         line-height: 1.4;
         margin-bottom: 20px;
+    }
+
+    .plate-img {
+        width: 152px;
+        padding-bottom: 16px;
+    }
+
+
+    .info-number {
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 1.21;
+    }
+
+    .info-text {
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 1.25;
+    }
+
+    .info-hero-list {
+        margin-top: 91px;
+    }
+
+    .hero-section {
+        background-image: url(/src/images/hero/points-tablet.png);
+    }
+
+    .ice-cream-img {
+        height: auto;
+        bottom: -56px;
+        right: 24px;
+    }
+
+    .logo-icon {
+        width: 48px;
+        height: 44px;
+    }
+
+    .hero-menu {
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--background-main-color);
+        position: fixed;
+        top: 0;
+        z-index: 101;
+    }
+
+    .hero-menu-logo {
+        width: 48px;
+        height: 44px;
+        position: absolute;
+        top: 20px;
+        left: 32px;
+    }
+
+    .hero-menu-close {
+        fill: var(--secondary-text-color);
+        position: absolute;
+        top: 32px;
+        right: 32px;
+    }
+
+    .hero-menu-nav {
+        padding-top: 140px;
+    }
+
+    .hero-menu-list {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .hero-menu-link {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.22;
+        color: var(--secondary-text-color);
+
+        &:active {
+            color: var(--primary-text-color);
         }
-
-        .plate-img{
-            width: 152px;
-            padding-bottom: 16px;
-        }
-
-
-        .info-number{
-            font-weight: 900;
-            font-size: 28px;
-            line-height: 1.21;
-        }
-
-        .info-text{
-            font-weight: 400;
-            font-size: 8px;
-            line-height: 1.25;
-        }
-
-        .info-hero-list{
-            margin-top: 91px;
-        }
-
-        .hero-section{
-            background-image: url(/src/images/hero/points-tablet.png);
-        }
-
-        .ice-cream-img{
-                height: auto;
-                bottom: -56px;
-                right: 24px;
-        }
-
-        .logo-icon{
-            width: 48px;
-            height: 44px;
-        }
-
-        .hero-menu{
-            display: block;
-            height: 100vh;
-            width: 100vw;
-            background-color: var(--background-main-color);
-            position: fixed;
-            top: 0;
-            z-index: 101;
-        }
-
-        .hero-menu-logo{
-            width: 48px;
-            height: 44px;
-            position: absolute;
-            top: 20px;
-            left: 32px;
-        }
-
-        .hero-menu-close{
-            fill: var(--secondary-text-color);
-            position: absolute;
-            top: 32px;
-            right: 32px;
-        }
-
-        .hero-menu-nav{
-            padding-top: 140px;
-        }
-
-        .hero-menu-list{
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            gap: 40px;
-            flex-direction: column;
-        }
-
-        .hero-menu-link{
-            font-weight: 700;
-            font-size: 48px;
-            line-height: 1.22;
-            color: var(--secondary-text-color);
-
-            &:active{
-                color: var(--primary-text-color);
-            }
-        }
+    }
 
 }
 
 @media screen and (min-width:0px) and (max-width: 767px) {
+
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution: 2dppx){
-        .hero-section{
-            background-image:url(/src/images/hero/points-mobile@2x.png);
-            background-size: contain;
-        }
-        .ice-cream-img{
-            right: 118px;
+    (min-resolution: 2dppx) {
+        .hero-section {
+            background-image: url(/src/images/hero/points-mobile@2x.png);
         }
     }
 }
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
+
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution: 2dppx){
-        .hero-section{
-            background-image:url(/src/images/hero/points-tablet.@2x.png);
-            background-size: contain;
+    (min-resolution: 2dppx) {
+        .hero-section {
+            background-image: url(/src/images/hero/points-tablet.@2x.png);
         }
     }
 }
 
 
 @media screen and (min-width: 1200px) {
+
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution: 2dppx){
-        .hero-section{
-            max-width: 1200px;
+    (min-resolution: 2dppx) {
+        .hero-section {
             background-position: bottom;
             background-repeat: no-repeat;
-            background-image:url(/src/images/hero/points-desktop@2x.png);
-            background-size: contain;
+            background-image: url(/src/images/hero/points-desktop@2x.png);
         }
     }
 }
@@ -740,5 +762,3 @@ body{
     visibility: 0;
     pointer-events: none;
 }
-
-

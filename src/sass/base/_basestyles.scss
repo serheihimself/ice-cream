@@ -1,29 +1,29 @@
 body {
-  background-color: var(--background-color);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--primary-text-color);
-  letter-spacing: 0.04em;
+    background-color: var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+    letter-spacing: 0.04em;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 h1,
@@ -33,20 +33,20 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+    margin: 0;
 }
 
 button {
-  display: block;
-  margin: 0 auto;
-  cursor: pointer;
-  border: none;
-  border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
 }
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:320px) {
     .container {
-        width: 480px;
+        width: 320px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 20px;
@@ -65,7 +65,18 @@ button {
 @media screen and (min-width:1200px) {
     .container {
         width: 1200px;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+.modal-btn-close {
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    @media screen and (min-width:768px) {
+    top: 20px;
+    right: 20px;
     }
 }

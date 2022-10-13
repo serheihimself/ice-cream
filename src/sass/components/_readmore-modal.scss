@@ -7,13 +7,7 @@
   height: 100%;
   z-index: 100;
   transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 400ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
+  visibility 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .readmore-modal {
@@ -32,20 +26,6 @@
   border-radius: 10px;
   padding: 26px;
 }
-
-.readmore-modal__btn-close {
-  background-color: transparent;
-  padding: 0;
-  position: absolute;
-  top: 6px;
-  right: 6px;
-}
-
-.read-modal__btn-icon {
-  width: 16px;
-  height: 16px;
-}
-
 .readmore-modal__title {
   text-transform: capitalize;
   font-family: 'Seymour One', sans-serif;
