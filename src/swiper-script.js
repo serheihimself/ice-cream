@@ -8,6 +8,7 @@ let swiper = new Swiper('.mySwiper', {
   autoplay:{
     delay:4000,
     speed:4000,
+    disableOnInteraction:false,
     },
 
   
@@ -15,5 +16,14 @@ let swiper = new Swiper('.mySwiper', {
     flipEffect:{
     slideShadows:true,
     limitRotation:true,},  
+
+  keyboard:{
+    onlyInViewport:true,
+    pageUpDown:true,
+  },
+  
+  mousewheel:{
+    sensitivity:1,
+  },  
 
 });
