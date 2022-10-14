@@ -191,6 +191,51 @@
     padding-bottom: 65px;
 }
 
+.plate-img{
+    display: inline-block;
+    transform-origin: center center;
+    animation: animate360 4000ms linear 1000ms infinite;
+  
+  }
+  
+  @keyframes animate360 {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    10% {
+      transform: rotate(45deg);
+    }
+  
+    20% {
+      transform: rotate(90deg);
+    }
+  
+    30% {
+      transform: rotate(135deg);
+    }
+  
+    40% {
+      transform: rotate(180deg);
+    }
+  
+    55% {
+      transform: rotate(235deg);
+    }
+  
+    70% {
+      transform: rotate(280deg);
+    }
+  
+    85% {
+      transform: rotate(335deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 .info-number {
     font-weight: 900;
     font-size: 46px;
