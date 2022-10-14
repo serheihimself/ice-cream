@@ -1,1 +1,0 @@
-{"mappings":"AAAa,IAAIA,OAAO,YAAa,CACnCC,WAAY,CACVC,GAAI,qBACJC,gBAAgB","sources":["src/swiper-script.js"],"sourcesContent":["let swiper = new Swiper('.mySwiper', {\n  pagination: {\n    el: '.swiper-pagination',\n    dynamicBullets: true,\n  },\n});\n"],"names":["Swiper","pagination","el","dynamicBullets"],"version":3,"file":"index.61aec9c3.js.map"}
